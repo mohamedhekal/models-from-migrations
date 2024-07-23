@@ -1,5 +1,5 @@
 {
-  "name": "yourvendor/migration-to-model",
+  "name": "noouh/migration-to-model",
   "description": "A Laravel package to convert migrations into models",
   "type": "library",
   "require": {

@@ -1,4 +1,3 @@
-
 # Migration to Model
 
 Migration to Model is a Laravel package that converts your database migrations into Eloquent models. It generates fillable properties, table names, and relationships based on your migration files.

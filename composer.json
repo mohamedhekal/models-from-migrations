@@ -1,0 +1,22 @@
+{
+  "name": "yourvendor/migration-to-model",
+  "description": "A Laravel package to convert migrations into models",
+  "type": "library",
+  "require": {
+    "php": ">=7.3",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Noouh\\MigrationToModel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Noouh\\MigrationToModel\\Providers\\MigrationToModelServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
